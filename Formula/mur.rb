@@ -1,8 +1,8 @@
 class Mur < Formula
   desc "Invisible continuous learning system for AI coding assistants"
   homepage "https://github.com/mur-run/mur-core"
-  url "https://github.com/mur-run/mur-core/archive/refs/tags/v1.6.0.tar.gz"
-  sha256 "60e46d1473eb69a59d5389766b832a74791dd435d25cd27d121ed1bd87042fe9"
+  url "https://github.com/mur-run/mur-core/archive/refs/tags/v1.6.2.tar.gz"
+  sha256 "532c11e38afc41bcbf97ba3c8bc679cafbb7cce27d5d0678454cc3f04220a1e7"
   license "MIT"
   head "https://github.com/mur-run/mur-core.git", branch: "main"
 
