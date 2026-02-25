@@ -6,6 +6,7 @@ class Mur < Formula
   license "MIT"
   head "https://github.com/mur-run/mur.git", branch: "main"
 
+  depends_on "protobuf" => :build
   depends_on "rust" => :build
 
   def install
