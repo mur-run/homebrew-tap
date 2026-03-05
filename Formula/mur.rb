@@ -16,7 +16,6 @@ class Mur < Formula
 
   def post_install
     ohai "mur v2 installed! Run 'mur init --hooks' to get started."
-    ohai "If upgrading from v1, run 'mur migrate' to convert patterns."
   end
 
   test do
