@@ -2,7 +2,7 @@ class Mur < Formula
   desc "Invisible continuous learning system for AI coding assistants"
   homepage "https://github.com/mur-run/mur"
   license "MIT"
-  version "2.0.0-alpha.27"
+  version "2.0.0"
 
   on_macos do
     on_arm do
