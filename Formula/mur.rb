@@ -2,12 +2,12 @@ class Mur < Formula
   desc "Invisible continuous learning system for AI coding assistants"
   homepage "https://github.com/mur-run/mur"
   license "MIT"
-  version "2.1.1"
+  version "2.1.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/mur-run/mur/releases/download/v2.1.1/mur-aarch64-apple-darwin.tar.gz"
-      sha256 "a2ac3220a571a76419cf9bad66d9c23a86f73dc978c92743ea8aa1dc3ce53ac1"
+      url "https://github.com/mur-run/mur/releases/download/v2.1.3/mur-aarch64-apple-darwin.tar.gz"
+      sha256 "86478def5d0ffde4257627014443646f9017b30e942936752c960ba0e2e2169b"
     end
   end
 
@@ -16,8 +16,8 @@ class Mur < Formula
   end
 
   def post_install
-    ohai "mur v2.1.1 installed! Run 'mur init --hooks' to get started."
-    ohai "New: Pipeline workflow execution (mur run w1 | w2 && w3)"
+    ohai "mur v2.1.3 installed! Run 'mur init --hooks' to get started."
+    ohai "New: Language-aware scoring, post-session menu, model quality warnings"
     ohai "Dashboard embedded — run 'mur serve' to open."
   end
 
