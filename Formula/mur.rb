@@ -7,7 +7,7 @@ class Mur < Formula
   on_macos do
     on_arm do
       url "https://github.com/mur-run/mur/releases/download/v2.22.7/mur-aarch64-apple-darwin.tar.gz"
-      sha256 "24175e55122b07f6449430ee26816161cddcd4d45aee994285565fc676463a07"
+      sha256 "4c8914c753d42547abfa63ae73eca0af6a84978c2cd2b9b116b0e818b37e5463"
     end
   end
 
