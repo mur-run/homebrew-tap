@@ -2,12 +2,12 @@ class Mur < Formula
   desc "Invisible continuous learning system for AI coding assistants"
   homepage "https://github.com/mur-run/mur"
   license "MIT"
-  version "2.81.0"
+  version "2.81.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/mur-run/mur/releases/download/v2.81.0/mur-aarch64-apple-darwin.tar.gz"
-      sha256 "62de99d762f4822f9e890919ffc26920e35f8b772a5dd56ec135be34762a0228"
+      url "https://github.com/mur-run/mur/releases/download/v2.81.1/mur-aarch64-apple-darwin.tar.gz"
+      sha256 "0b63ef0d8e9a59c977f958e71076654db7ff32d7d185726716b0dbd5428c224e"
     end
   end
 
